@@ -31,6 +31,7 @@ footer {
 
 footer .col-sm-8 {
   display: flex;
+  padding: 100px 0;
   justify-content: center;
 }
 
