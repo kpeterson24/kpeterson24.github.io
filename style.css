@@ -3,6 +3,9 @@ body {
   font-family: 'Avenir Light';
   font-weight: light;
 }
+header {
+  padding: 20px;
+}
 header .row,
 footer .row {
   display: flex;
