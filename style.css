@@ -1,8 +1,10 @@
 body {
+  display: flex;
   font-family: 'Avenir Light';
   font-weight: light;
 }
 h1 {
+  display: flex;
   font-family: 'Avenir Light';
   font-weight: light;
   
