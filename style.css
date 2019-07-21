@@ -3,6 +3,11 @@ body {
   font-family: 'Avenir Light';
   font-weight: light;
 }
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
 h1 {
   display: flex;
   font-family: 'Avenir Light';
