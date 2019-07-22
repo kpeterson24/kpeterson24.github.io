@@ -49,6 +49,10 @@ p {
   text-align: left;
   color: #000000;
 }
+.column {
+  float: left;
+  width: 25%;
+}
 
 footer .row {
   display: flex;
