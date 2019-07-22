@@ -1,4 +1,7 @@
 body {
+  min-height: 100%;
+  display: relative;
+  flex-direction: column;
   font-family: 'Nunito Sans', sans-serif;
 }
 .hello header {
