@@ -62,6 +62,12 @@ footer .col-sm-8 {
   alight-items: center;
 }
 
+footer .col-sm-1 {
+  display: flex;
+  padding: 100px 0;
+  alight-items: center;
+}
+
 footer ul {
   list-style: none;
 }
