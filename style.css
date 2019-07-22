@@ -1,19 +1,19 @@
 body {
+  margin: 0 auto;
   padding: 35px;
   min-height: 100%;
   display: relative;
   flex-direction: column;
   font-family: 'Nunito Sans', sans-serif;
 }
+div.content {
+width: 960px;
+}
 
 .hello header {
   display: relative;
-  text-items: center;
+  text-align: center;
   padding: 5px;
-}
-
-subheader {
-  color: #b22725;
 }
 
 h1 {
@@ -56,24 +56,67 @@ p {
   color: #000000;
 }
 .column {
-  column-fill: auto;
-  align-text: vertical;
+  column-fill: flex;
+  text-align: top;
+  vertical-align: top;
   float: left;
-  width: 25%;
+  width: 20%;
   padding: 15px;
-  height: 150px;
+  height: auto;
 }
 
-iconnav {
-  background-color: #FFF;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-
-iconnav li {
-  display: inline;
+@mediascreen and (max-width: 600px) {
+ }
+ 
+@importurl('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
+.universal-inline-block {
+  display: inline-block;
+  zoom: 1;
+  }
+  .social-icons {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #b22725;
+}
+.social-icons h1 {
+  margin: 40px 0;
+}
+.social-icons ul {
+  list-style: none;
   margin: 0;
-  padding: 10 0px;
+  padding: 0;
 }
-
-iconnav ul {
-  display: inline;
+.social-icons ul li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
 }
+.social-icons ul li a {
+  display: block;
+  font-size: 1.4em;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.social-icons ul li a i {
+  color: #b22725;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.social-icons ul li a:hover i {
+  color: #000000;
+}
+.social-icons ul li a:focus i, ul li a:active i {
+  transition: none;
+  color: #b22725;
+  }
