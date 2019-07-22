@@ -70,8 +70,9 @@ p {
 }
 
 footer .row {
-  display: flex;
+  display: relative;
   align-items: center;
+  padding:35px;
 }
 
 
@@ -87,12 +88,6 @@ footer .col-sm-1 {
   alight-items: center;
 }
 
-footer ul {
-  display: relative;
-  alight-items: center;
-  padding: 100px;
-  list-style: none;
-}
 
 footer li img {
   width: 32px;
