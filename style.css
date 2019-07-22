@@ -50,8 +50,10 @@ p {
   color: #000000;
 }
 .column {
-  float: left;
+ float: left;
   width: 25%;
+  padding: 15px;
+  height: 150px;
 }
 
 footer .row {
