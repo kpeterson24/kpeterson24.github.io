@@ -37,7 +37,7 @@ h3 {
 h4 {
   text-align: left;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
   color: #b22725;
@@ -45,12 +45,14 @@ h4 {
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
+  margin-bottom: 0;
   margin-top: 0;
   text-align: left;
   color: #000000;
 }
 .column {
- float: left;
+  column-fill: auto;
+  float: left;
   width: 25%;
   padding: 15px;
   height: 150px;
