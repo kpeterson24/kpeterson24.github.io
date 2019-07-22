@@ -1,4 +1,5 @@
 body {
+  padding: 35px;
   min-height: 100%;
   display: relative;
   flex-direction: column;
