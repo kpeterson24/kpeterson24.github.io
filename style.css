@@ -14,7 +14,7 @@ h1 {
   color: #b22725;
 }
 h2 {
-  display: flex;
+  text-align: center;
   font-family: 'Nunito';
   font-size: 24px;
   color: #b22725;
