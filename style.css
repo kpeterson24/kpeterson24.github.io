@@ -5,6 +5,12 @@ body {
   flex-direction: column;
   font-family: 'Nunito Sans', sans-serif;
 }
+
+div.wrap {
+    width:960px;
+    margin:0 auto;
+}
+
 .hello header {
   display: relative;
   text-items: center;
