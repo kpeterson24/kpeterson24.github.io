@@ -6,11 +6,6 @@ body {
   font-family: 'Nunito Sans', sans-serif;
 }
 
-div.wrap {
-    width:960px;
-    margin:0 auto;
-}
-
 .hello header {
   display: relative;
   text-items: center;
@@ -77,14 +72,14 @@ footer .row {
 
 
 footer .col-sm-8 {
-  display: relative;
-  padding: 100px 0;
+  display: flex;
+  padding: 25px 0;
   alight-items: center;
 }
 
 footer .col-sm-1 {
-  display: relative;
-  padding: 100px 0;
+  display: flex;
+  padding: 25px 0;
   alight-items: center;
 }
 
