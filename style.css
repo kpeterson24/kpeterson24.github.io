@@ -29,6 +29,12 @@ body {
   color: #b22725;
 }
 
+.sections h4 {
+  text-align: left;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 12px;
+  color: #b22725;
+}
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
